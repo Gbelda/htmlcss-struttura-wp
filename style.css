@@ -4,6 +4,17 @@
     padding: 0%;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    width: 910px;
+    margin: auto;
+}
+
 /* DEBUG */
 
 .debug .nav{
@@ -12,7 +23,7 @@
 }
 
 .debug .hero{
-    height: 250px;
+    height: 350px;
     background-color: tan;
 
 }
@@ -23,11 +34,36 @@
 }
 
 .debug .article-column > div{
-    height: 250px;
+    height: 350px;
     background-color: skyblue;
 }
 
 .debug .copywright{
     height: 50px;
-    background-color: firebrick
+    background-color: firebrick;
+}
+
+
+/* Common */
+
+.article .column-middle{
+    width: 60%;
+}
+
+.article .column-left, .article .column-right{
+    width: 19%;
+}
+
+.article .column-left, .article .column-middle{
+    margin-right: 1%;
+}
+
+
+.article-column > div{
+    float: left;
+
+}
+
+.nav, .hero, .article-column, .topic{
+   margin-bottom: 10px;  
 }
