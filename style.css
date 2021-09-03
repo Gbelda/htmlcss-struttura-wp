@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* DEBUG */
+
+.debug .nav{
+    height: 100px;
+    background-color: violet;
+}
+
+.debug .hero{
+    height: 250px;
+    background-color: tan;
+
+}
+
+.debug .topic{
+    height: 70px;
+    background-color: skyblue;
+}
+
+.debug .article-column > div{
+    height: 250px;
+    background-color: skyblue;
+}
+
+.debug .copywright{
+    height: 50px;
+    background-color: firebrick
+}
